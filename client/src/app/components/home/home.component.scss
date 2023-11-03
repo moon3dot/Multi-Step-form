@@ -1,0 +1,28 @@
+main {
+     min-height: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+
+     p {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          font-size: 2rem;
+          color: rgb(26, 26, 26);
+
+          button {
+               cursor: pointer;
+               background-color: gold;
+               border-radius: 2rem;
+               max-width: 10rem;
+               padding: 0.5rem;
+          }
+     }
+
+     img {
+          max-width: 18rem;
+          max-height: 18rem;
+     }
+}
