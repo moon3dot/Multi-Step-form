@@ -1,13 +1,12 @@
 <main>
      <section>
-          <div>
-               <form action="">
-                    <label for="name">name: </label>
-                    <input type="text">
-
-                    <label for="name">phone: </label>
-                    <input type="text">
-               </form>
-          </div>
+          <form [formGroup]="formFg">
+               <mat-form-field>
+                    <mat-label>First name</mat-label>
+                    <input matInput>
+                    <mat-icon matSuffix>account</mat-icon>
+                    <mat-hint>Hint</mat-hint>
+               </mat-form-field>
+          </form>
      </section>
 </main>
