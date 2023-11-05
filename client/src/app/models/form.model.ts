@@ -8,5 +8,4 @@ export interface form {
      confirmPassword: string,
      phoneNumber: string
      recoveryEmail: string,
-     recoveryPhone: string,
 }
